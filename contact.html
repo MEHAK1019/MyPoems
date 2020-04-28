@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet"> 
+    <title>Contact</title>
+    <style>
+       .card{
+        padding-left: 2%;
+        margin-top: 3%;
+        background: rgb(193,18,44);
+        background: radial-gradient(circle, rgba(193,18,44,1) 0%, rgba(238,211,212,1) 100%); 
+        padding-bottom: 5%; 
+        padding-top: 4%; 
+       }
+       h2{
+        margin-left: 45%;
+        font-size: xxx-large;
+        margin-top: -1%;
+        font-family: 'Comfortaa', cursive;
+        color: white;
+        margin-top: 3px;
+        margin-bottom: 2%;
+       }
+       body{
+        /* background: rgb(155,154,181);
+        background: linear-gradient(90deg, rgba(155,154,181,1) 0%, rgba(198,63,124,1) 35%, rgba(154,201,18,1) 100%); */
+        background-color: black;
+       }
+       .jumbotron{
+           border: 1px solid grey;
+           margin-top: 2%;
+           padding-top: 6%;
+           background: rgb(193,18,44);
+            background: radial-gradient(circle, rgba(193,18,44,1) 0%, rgba(238,211,212,1) 100%); 
+       }
+       .display-4{
+        font-family: 'Special Elite', cursive;
+        font-size: xxx-large;
+        margin-top: -2%;
+       }
+       .hii{
+        padding-left: 0%;
+         padding-right: 51%; 
+         border-radius: 5px;
+       }
+       .bye{
+        padding-right: 230px;
+        border-radius: 5px;
+        
+       }
+       
+       @media(min-width:320px) and (max-width:480px){
+           .card{
+            margin-left: -100px;
+            margin-right: -97%;
+            margin-top: -27%;
+           }
+           .hii{
+            padding-right: 94px;
+           }
+           .bye{
+            padding-right: 90px;
+           }
+           h2{
+            
+            margin-left: 70px;
+            margin-bottom: 43px;
+
+           }
+           .display-4{
+            font-size: xx-large;
+           }
+       }
+       @media(min-width: 480px) and (max-width: 320px){
+           .card{
+            margin-left: -145px;
+            margin-right: -85%;
+           }
+           h2{
+            
+            font-family: 'Comfortaa', cursive;
+            color: white;
+            margin-left: 32%;
+            margin-bottom: 14%;
+           }
+       }
+    </style>
+</head>
+    <body>
+        <h2 style="font-family: 'Comfortaa', cursive; color: white;"> Details </h2>
+        <div style="border: 1px solid black; margin-left: 34%; margin-right: 32%; margin-top: -3%;">
+            <form class="card">
+                <div >
+                    <label for="Name" id="Name">Name</label>
+                    <input type="Name" id="Name" placeholder="Name" class="form-control hii">
+                </div>
+                <div style="padding-bottom: 5%; padding-top: 4%;">
+                    <label for="Email" id="Email">Email</label>
+                    <input type="Email" id="Email" placeholder="Email" class="form-control hii">
+                </div>
+                <div style="padding-bottom: 5%; padding-top: 4%;">
+                    <label for="Contact" id="Contact">MobNo</label>
+                    <input type="Contact" id="Contact" placeholder="Contact" class="form-control bye">
+                </div>
+                <div style="padding-bottom: 5%; padding-top: 4%;">
+                    <button type="submit" style="padding-right: 13%; padding-left: 13%; margin-left: 33%;" class="btn btn-light">submit</button>
+                </div>
+            </form>
+           
+            </div>
+        <div>
+            <div class="jumbotron">
+                <h1 class="display-4">THANKYOU!!!</h1>
+                <p class="lead" style="font-family: 'Sacramento', cursive;">So, This is my all attempt to make a good website. </p>
+                <hr class="my-4">
+                <p style="font-family: 'Sacramento', cursive;"> Let's go back to...</p>
+                <!-- <a class="btn btn-success href="#home" role="button" style="font-size: large;">Home</a> -->
+               <a href="index.html"> <button type="button" class="btn btn-success" style="font-size: large; background-color:crimson">HOME</button></a>
+              </div>
+        </div>
+        <!-- <footer>
+            <hr>
+            <h6 style="color: white;">Made by &copy; Mehak Saxena </h6>
+        </footer> -->
+    </body>
+</html>
